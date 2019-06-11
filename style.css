@@ -89,17 +89,24 @@ p {
   /* Impostazione della quinta riga e delle sue colonne */
 
 
-#row 5 .col-4 {
+.col-5 .col-4 {
   background-color: red;
-  padding: 10px;
+  margin: 3px;
+  width: calc((100% / 12) * 2 - 6px);
 }
 
-#row 5 .col-3 {
+.col-5 > .col-3 {
   background-color: red;
-  padding: 10px;
+  margin: 3px;
+  width: calc((100% / 12) * 8 - 6px);
 }
 
-#row 5 .col-5 {
+.col-5 .col-5 {
   background-color: red;
-  padding: 10px;
+  margin: 3px;
+  width: calc((100% / 12) * 6 - 6px);
 }
+
+/* Chiedere come mai non funziona #row 5 .col-4  */
+
+/* Chiedere come mai non funziona 50% - 6px */
