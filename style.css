@@ -10,7 +10,7 @@
 .container {
   width: 1170px;
   background-color: gray;
-  height: 900px;
+  height: 100vh;
   margin: 0 auto;
   border: solid black 1px;
 }
