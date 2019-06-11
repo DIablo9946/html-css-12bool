@@ -102,26 +102,30 @@ p {
 
 .col-5 .col-4 {
   background-color: red;
-  margin: 4px 1.5px 4px 1.5px;
-  width: calc((100% / 12) * 2 - 3px);
+  /* margin: 4px 1.5px 4px 1.5px; */
+  width: calc((100% / 12) * 2 /*- 3px */);
   /* height: 162px; */
   height: 100%;
 }
 
 .col-5 .col-3 {
   background-color: red;
-  margin: 4px 1.5px 4px 1.5px;
-  width: calc((100% / 12) * 8 - 3px);
+  /* margin: 4px 1.5px 4px 1.5px; */
+  width: calc((100% / 12) * 8 /*- 3px */);
   /* height: 162px; */
   height: 100%;
 }
 
 .col-5 .col-5 {
   background-color: red;
-  margin: 4px 1.5px 4px 1.5px;
-  width: calc((100% / 12) * 6 - 3px);
+  /* margin: 4px 1.5px 4px 1.5px; */
+  width: calc((100% / 12) * 6 /*- 3px*/);
   /* height: 162px; */
   height: 100%;
+}
+
+.row-5 .col-5 {
+  padding: 10px;
 }
 
 
