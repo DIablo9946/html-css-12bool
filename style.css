@@ -15,16 +15,22 @@
   border: solid black 1px;
 }
 
-.container::after {
+/* .container::after {
   content: "";
   display: table;
   clear: both;
-}
+}  Meglio assegnarlo direttamente ai row per alcuni fattori*/
 
-  /* Impost l'altezza di tutte le rige affinchè siano uguali  */
+  /* Impost l'altezza di tutte le rige affinchè siano uguali e imposto float property */
 
 .row {
   height: calc(100% / 5);
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
   /* Regola generale per il float colonne  */
